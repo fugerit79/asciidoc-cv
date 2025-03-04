@@ -1,0 +1,114 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>asciidoc-cv</artifactId>
+	<groupId>org.fugerit.java</groupId>
+
+	<name>Curriculum Vitae Matteo Franci</name>
+	<description>Curriculum Vitae con approccio docs as code, basato su AsciiDoc</description>
+	<version>1.0.0</version>
+
+	<licenses>
+		<license>
+			<name>CC0 1.0 Universal</name>
+			<url>https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<properties>
+		<maven.compiler.release>17</maven.compiler.release>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<exec-plugin.version>3.5.0</exec-plugin.version>
+		<cv.dir>${project.basedir}</cv.dir>
+		<cv.out>${project.basedir}/target/site</cv.out>
+		<cv.pdf>cv-franci-matteo.pdf</cv.pdf>
+	</properties>	
+
+	<organization>
+		<url>https://github.com/fugerit79</url>
+		<name>Fugerit</name>
+	</organization>
+	
+	<url>https://cv.fugerit.org/</url>
+	
+	<scm>
+		<connection>scm:git:git://github.com/fugerit79/asciidoc-cv.git</connection>
+		<developerConnection>scm:git:ssh://github.com/fugerit79/asciidoc-cv.git</developerConnection>
+		<url>https://github.com/fugerit79/asciidoc-cv.git</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/fugerit79/asciidoc-cv/issues</url>
+	</issueManagement>
+
+	<build>
+
+		<plugins>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>${exec-plugin.version}</version>
+				<executions>
+					<execution>
+						<id>npm install (initialize)</id>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<phase>initialize</phase>
+						<configuration>
+							<executable>npm</executable>
+							<arguments>
+								<argument>install</argument>
+							</arguments>
+							<workingDirectory>${cv.dir}</workingDirectory>
+						</configuration>
+					</execution>
+					<execution>
+						<id>npm install (add asccidoc)</id>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<phase>initialize</phase>
+						<configuration>
+							<executable>npm</executable>
+							<arguments>
+								<argument>i</argument>
+								<argument>@asciidoctor/core</argument>
+								<argument>asciidoctor-pdf</argument>
+								<argument>--save-dev</argument>
+							</arguments>
+							<workingDirectory>${cv.dir}</workingDirectory>
+						</configuration>
+					</execution>
+					<execution>
+						<id>asciidoc generation</id>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<phase>compile</phase>
+						<configuration>
+							<executable>${project.basedir}/node_modules/asciidoctor-pdf/bin/asciidoctor-web-pdf</executable>
+							<arguments>
+								<argument>-o</argument>
+								<argument>${cv.out}/${cv.pdf}</argument>
+								<argument>${project.basedir}/cv.adoc</argument>
+								<argument>--template-require</argument>
+								<argument>${project.basedir}/template.js</argument>
+							</arguments>
+							<workingDirectory>${cv.dir}</workingDirectory>
+						</configuration>
+					</execution>
+				</executions>
+
+			</plugin>
+
+		</plugins>
+
+	</build>
+
+</project>

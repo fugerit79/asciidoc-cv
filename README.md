@@ -30,3 +30,7 @@ Questo progetto è basato su  :
 * [Asciidoctor](https://asciidoctor.org/)
 * [asciidoctor-web-pdf](https://github.com/ggrossetie/asciidoctor-web-pdf)
 * <https://flakm.com/posts/cv_asciidoc/>
+
+## Convenzioni
+
+Per i commit viene usata la specifica [Conventional Commits](https://www.conventionalcommits.org/)

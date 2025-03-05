@@ -40,15 +40,13 @@ image:resources/photo.jpg[role=profil]
 
 ==== Lingue
 
-- Inglese
-- Russo
+- Inglese (Buono)
+- Russo (Buono)
 
 ==== Interessi
 
 - Open Source
 - Tecnologia
-
-{nbsp} +
 
 [.version]
 ==== Versione 1.0.0 (2025-03-05)
@@ -58,13 +56,15 @@ image:resources/qr-code.png[role=qrcode]
 [.chronologie]
 == !
 
+=== Profilo Professionale
+
+Software Engineer con oltre 20 anni di esperienza nello sviluppo software per la PA e contributor attivo a progetti Open Source. Specializzato in Java, CI/CD, Docs-as-Code e sistemi cloud-native. Appassionato di tecnologia e con una forte propensione alla condivisione della conoscenza e al supporto dei team nell’adozione di pratiche DevOps. Credo nell'adozione di best practice — testing, secure coding, DevOps — e di azioni concrete per aumentare la stabilità e la sicurezza dei sistemi. Promuovo attivamente l'automazione per ridurre il tempo di sviluppo e migliorare la qualità complessiva.
+
 === Esperienze lavorative
 [.heading]
 
 ==== 2007 - in corso
 *Sogei S.p.A.*
-
-{nbsp} +
 
 [cols="1,1,2,4"]
 |===
@@ -98,11 +98,10 @@ image:resources/qr-code.png[role=qrcode]
 | 2007
 | 2008
 | Software Engineer
-| SECIN - Monitoraggio degli obiettivi strategici e operativi dei dipartimenti del Ministero delle Finanze
+| SECIN - Monitoraggio degli obiettivi strategici dell'amministrazione
+finanziaria.
 
 |===
-
-{nbsp} +
 
 (*) In questo ruolo mi sono occupato in particolare di :
 
@@ -111,8 +110,6 @@ image:resources/qr-code.png[role=qrcode]
 * Change Management
 * Sviluppo software
 * Documentazione (in particolare docs as code)
-
-{nbsp} +
 
 ==== 2004 - 2007
 *OpenInformatica S.R.L.*
@@ -128,12 +125,10 @@ image:resources/qr-code.png[role=qrcode]
 
 |===
 
-=== Portfolio
+=== Alcuni progetti
 [.heading]
 
-==== Progetti Open Source
-
-{nbsp} +
+==== Open Source
 
 * Contribuzioni a repository Open Source quali
 link:https://github.com/snakeyaml/snakeyaml/commits?author=fugerit79[SnakeYAML]
@@ -146,17 +141,15 @@ link:https://github.com/italia/cie-cns-apache-docker?author=fugerit79[cie-cns-ap
 
 * link:https://venusdocs.fugerit.org/[Venus - Fugerit Document Generation Framework (fj-doc)], permette di produrre documenti in differenti formati di output (HTML, PDF, CSV, XLSX, AsciiDoc) a partire da un modello sorgente XML (in alternativa è possibile usare JSON, YAML o Kotlin come sorgente). E' disponibile anche un link:https://docs.fugerit.org/fj-doc-playground/home/[Playground online].
 
-* link:https://graalkus.fugerit.org/[Graalkus - Let Quarkus fly high with GraalVM], microservizio didattico basato su link:https://www.graalvm.org/[GraalVM], link:https://quarkus.io/[Quarkus], JAVA. Integrato con link:https://docs.github.com/en/actions[GitHub Actions] per la CI, OpenShift link:https://developers.redhat.com/developer-sandbox[Developer Sandbox] o link:https://www.docker.com/[Docker/Podman] come ambiente di deploy. Corredato di documentazione link:https://asciidoc.org/[AsciiDoc] e presentazione link:https://sli.dev/[Slidev].
+* link:https://graalkus.fugerit.org/[Graalkus - Let Quarkus fly high with GraalVM], microservizio didattico basato su link:https://www.graalvm.org/[GraalVM], link:https://quarkus.io/[Quarkus], JAVA. Integrato con link:https://docs.github.com/en/actions[GitHub Actions] per la CI, OpenShift link:https://developers.redhat.com/developer-sandbox[Developer Sandbox] o link:https://www.docker.com/[Docker/Podman] come ambiente di deploy. Corredato di documentazione link:https://asciidoc.org/[AsciiDoc] e presentazione link:https://sli.dev/[Slidev]. (E' un esempio completo di buone pratiche applicate allo sviluppo software, Quality gate, Testing etc).
 
 * Utility e librerie pubblicati in due organizzazioni link:https://github.com/fugerit-org[Fugerit Org] e link:https://github.com/caffetteria[Caffetteria].
 
-==== Attuali progetti professionali
-
-{nbsp} +
+==== Professionali
 
 * Repository GitHub Anagrafe Nazionale (ANPR) - https://github.com/italia/anpr
 * Repository GitHub Stato Civile (ANSC) - https://github.com/italia/ansc
-* Servizi di Anagrafe e Stato Civile - https://www.anagrafenazionale.interno.it/area-tecnica/documentazione-tecnica/
+* Servizi di Anagrafe e Stato Civile - https://www.anagrafenazionale.interno.it/
 
 === Educazione
 [.heading]

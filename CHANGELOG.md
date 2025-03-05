@@ -7,8 +7,13 @@ e il progetto si conforma al [Versionamento semantico](https://semver.org/spec/v
 
 ## [Non rilasciato]
 
+### Aggiunto
+
+- sezione profilo
+
 ### Modificato
 
+- revisione testi
 - stile per formattazione più compatta
 
 ## [1.0.0] - 2025-03-05

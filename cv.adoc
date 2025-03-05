@@ -49,7 +49,7 @@ image:resources/photo.jpg[role=profil]
 - Tecnologia
 
 [.version]
-==== Versione 1.0.0 (2025-03-05)
+==== Versione 1.1.0 (2025-03-06)
 
 image:resources/qr-code.png[role=qrcode]
 

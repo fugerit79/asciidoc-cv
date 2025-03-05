@@ -60,14 +60,15 @@ h1 {
 }
 
 .chronologie h2 {
-  text-transform: uppercase;
-  margin-top: .75rem;
-  font-size: 1.8em;
+  style: italic;
+  margin-top: .70rem;
+  font-size: 1.5em;
   font-weight: 300;
 }
 
 .chronologie h3 {
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.2rem;
   font-size: 1.2em;
 }
 
@@ -75,7 +76,7 @@ h1 {
   font-size: 2em;
   text-align: center;
   padding-top: 0.4cm;
-  padding-bottom: 0.4cm;
+  padding-bottom: 0.2cm;
   font-family: 'Bitter', serif;
 }
 
@@ -90,7 +91,7 @@ h1 {
 }
 
 .info h3 {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   font-size: .85em;
 }
 
@@ -108,7 +109,7 @@ div.atouts {
 }
 
 div.heading {
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 ul.atouts {

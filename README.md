@@ -1,5 +1,6 @@
 # Curriculum Vitae Matteo Franci
 
+[![Curriculum Vitae](https://img.shields.io/badge/Curriculum%20Vitae-LATEST-EE3020?labelColor=303030&style=flat&logo=adobe)](https://cv.fugerit.org/cv-franci-matteo.pdf)
 [![Tenere un changelog v1.1.0 badge](https://img.shields.io/badge/changelog-Tenere%20un%20Changelog%20v1.1.0-%23E05735)](CHANGELOG.md)
 
 Curriculum Vitae con approccio docs as code, basato su AsciiDoc

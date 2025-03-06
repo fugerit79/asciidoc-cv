@@ -7,6 +7,10 @@ e il progetto si conforma al [Versionamento semantico](https://semver.org/spec/v
 
 ## [Non rilasciato]
 
+### Modificato
+
+- note per il qr code che ora punto al repo GitHub
+
 ## [1.1.0] - 2025-03-06
 
 ### Aggiunto

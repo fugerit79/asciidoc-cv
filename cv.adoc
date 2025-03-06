@@ -51,6 +51,9 @@ image:resources/photo.jpg[role=profil]
 [.version]
 ==== Versione 1.1.0 (2025-03-06)
 
+[role=qrcode-info]
+(Creato con AsciiDoc, scansiona il QR Code per aprire il repository GitHub)
+
 image:resources/qr-code.png[role=qrcode]
 
 [.chronologie]

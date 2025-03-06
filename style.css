@@ -171,19 +171,6 @@ ul.contact {
   margin-bottom: .2cm;
 }
 
-.qrcode {
-  margin: auto;
-  display: block;
-}
-
-.qrcode>img {
-  max-width: 90%;
-  margin: auto;
-  display: block;
-  margin-top: .2cm;
-  margin-bottom: .2cm;
-}
-
 .footer {
   height: 1cm;
   background-color: #4164c7;
@@ -210,6 +197,24 @@ td {
   font-size: 12px
 }
 
-version {
-  text-align: center;
+.qrcode {
+  margin: auto;
+  display: block;
 }
+
+.qrcode>img {
+  max-width: 90%;
+  margin: auto;
+  display: block;
+  margin-top: .2cm;
+  margin-bottom: .2cm;
+}
+
+.version {
+  font-size: 9pt;
+}
+
+.version .paragraph {
+  margin-top: .1cm;
+}
+

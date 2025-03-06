@@ -7,6 +7,10 @@ e il progetto si conforma al [Versionamento semantico](https://semver.org/spec/v
 
 ## [Non rilasciato]
 
+### Aggiunto
+
+- sezione sulla CI con workflow GitHub nel README
+
 ### Modificato
 
 - note per il qr code che ora punto al repo GitHub

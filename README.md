@@ -10,8 +10,6 @@ Curriculum Vitae con approccio docs as code, basato su AsciiDoc
 
 ## Quickstart
 
-Versione online  : <https://cv.fugerit.org/cv-franci-matteo.pdf>
-
 Build locale : 
 
 ```shell
@@ -21,6 +19,12 @@ npm install
 ```shell
 ./node_modules/asciidoctor-pdf/bin/asciidoctor-web-pdf cv.adoc --template-require ./template.js -o cv.pdf
 ```
+
+## CI : Pipeline di build e pubblicazione
+
+Tramite un semplice [workflow GitHub](.github/workflows/gh_pages.yml) viene creato l'artefatto del CV che poi viene pubblicato sulle le GitHub pages : 
+
+<https://cv.fugerit.org/cv-franci-matteo.pdf>
 
 ## Risorse
 

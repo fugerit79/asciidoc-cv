@@ -11,6 +11,7 @@ e il progetto si conforma al [Versionamento semantico](https://semver.org/spec/v
 
 ### Aggiunto
 
+- Upload artifact on release
 - badge con link all'ultima versione del CV PDF nel README
 - sezione sulla CI con workflow GitHub nel README
 

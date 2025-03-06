@@ -1,0 +1,52 @@
+name: Upload artifact to release
+
+on:
+  # triggers on a new release
+  release:
+    types: [published]
+
+# Sets permissions of the GITHUB_TOKEN
+permissions:
+  contents: write
+
+env:
+  CV_BASE_NAME: cv-franci-matteo
+
+jobs:
+
+  upload-release:
+    name: Upload Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+
+      - name: Setup JDK 21
+        uses: actions/setup-java@main
+        with:
+          java-version: 21
+          distribution: 'corretto'
+          cache: maven
+
+      - name: Set up Node.js
+        uses: actions/setup-node@main
+        with:
+          node-version: '20'  # Puoi scegliere la versione di Node.js desiderata
+
+      - name: Install Mermaid CLI
+        run: npm install -g @mermaid-js/mermaid-cli
+
+      - name: Verify Mermaid CLI installation
+        run: mmdc --version
+
+      - name: Generate PDF
+        run: mvn clean install
+
+      - name: Create release artifact
+        run: cp -fr target/site/$CV_BASE_NAME.pdf target/site/$CV_BASE_NAME-${{ github.ref_name }}.pdf
+
+      - name: Upload release artifact
+        run: gh release upload ${{github.event.release.tag_name}} target/site/$CV_BASE_NAME-${{ github.ref_name }}.pdf
+        env:
+          GITHUB_TOKEN: ${{ github.TOKEN }}

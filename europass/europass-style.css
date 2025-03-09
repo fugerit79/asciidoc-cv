@@ -1,0 +1,118 @@
+@page {
+  size: 210mm 297mm;
+  margin: 0;
+}
+
+@media only screen {
+  .page-bleed {
+    position: absolute;
+    height: calc(29.7cm - .5cm);
+    width: calc(21cm - .5cm);
+    margin: .25cm;
+    border: 1px solid red;
+  }
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeSpeed;
+  font-size: 10pt;
+  text-align: justify;
+  height: 29.7cm;
+  width: 21cm;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen {
+  body {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}
+.header {
+  padding: .75rem;
+  padding-top: 1rem;
+}
+
+h1 {
+  font-family: 'Bitter', serif;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+/** il mio stile personalizzato */
+
+#content {
+  height: 100%;
+}
+
+#content>.line {
+  padding-top: 1cm;
+  display: flex;
+}
+
+#content>.line>.sezione {
+  width: 6cm;
+  padding-left: 0.4cm;
+  padding-right: 0.2cm;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#content>.line>.informazioni {
+  width: 15cm;
+  margin-left: 0.4cm;
+  margin-right: 0.2cm;
+  padding-bottom: 0.2cm;
+}
+
+#content>.line>.informazioni>.margintop {
+  padding-top: 1.5rem;
+}
+
+#content>.line>.informazioni p {
+  padding-top: 0.5rem;
+}
+
+.sezione h2 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #000060;
+}
+
+.informazioni h2 {
+  font-size: 16px;
+  font-weight: normal;
+  color: black;
+}
+
+.profilo {
+  margin: auto;
+  display: block;
+}
+
+.profilo>img {
+  max-width: 100%;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+  margin-top: .2cm;
+  margin-bottom: .2cm;
+}

@@ -1,0 +1,76 @@
+[.line]
+== !
+
+[.sezione]
+=== Esperienze lavorative
+
+[.informazioni]
+=== !
+
+==== 2007 - in corso
+*Sogei S.p.A.*
+
+[cols="1,1,2,4"]
+|===
+| Inizio | Fine | Ruolo | Progetto
+
+| 2022
+| in corso
+| Software Engineer e Release Manager (*)
+| link:https://github.com/italia/ansc[A.N.S.C.] - Archivio Nazionale informatizzato dei registri dello Stato Civile
+
+| 2020
+| in corso
+| Software Engineer e Release Manager (*)
+| link:https://www.anagrafenazionale.interno.it/[Area servizi per i cittadini]  Anagrafe Nazionale Della Popolazione Residente
+
+| 2016
+| in corso
+| Software Engineer e Release Manager (*)
+| link:https://github.com/italia/anpr[A.N.P.R.] - Anagrafe Nazionale Della Popolazione Residente
+
+| 2013
+| 2016
+| Software Engineer
+| Sistema di monitoraggio dello stato di pagamento delle cartelle Equitalia
+
+| 2010
+| 2016
+| Software Engineer
+| link:https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/richiedere-documenti-o-informazioni-su-pagamenti-e-procedure/[Servizi per cittadini e professiosti Agenzia delle entrate Riscossione] (ex Equitalia)
+
+| 2008
+| 2010
+| Software Engineer
+| link:https://sistemats1.sanita.finanze.it/[Sistema Tessera Sanitaria]
+
+| 2007
+| 2008
+| Software Engineer
+| SECIN - Monitoraggio degli obiettivi strategici dell'amministrazione
+finanziaria.
+
+|===
+
+(*) In questo ruolo mi sono occupato in particolare di :
+
+* Configurazione e manutenzione CI (pipeline Azure DevOps)
+* Coordinamento team di sviluppo
+* Change Management
+* Sviluppo software
+* Documentazione (in particolare docs as code)
+
+[.margintop]
+==== 2004 - 2007
+*OpenInformatica S.R.L.*
+
+[cols="1,1,2,4"]
+|===
+| Inizio | Fine | Ruolo | Progetto
+
+| 2004
+| 2007
+| Software Engineer
+| Consulenze per molti progetti in ambito privato e pubblico
+
+|===

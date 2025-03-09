@@ -7,6 +7,10 @@ e il progetto si conforma al [Versionamento semantico](https://semver.org/spec/v
 
 ## [Non rilasciato]
 
+### Aggiunto
+
+- Versione EUROPASS estesa Curriculum Vitae
+
 ## [1.2.0] - 2025-03-06
 
 ### Aggiunto

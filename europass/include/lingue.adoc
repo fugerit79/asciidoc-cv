@@ -1,0 +1,52 @@
+[.line]
+== !
+
+[.sezione]
+=== Lingua madre
+
+[.informazioni]
+=== Italiano
+
+[.line]
+== !
+
+[.sezione]
+=== Inglese
+
+[.informazioni]
+=== !
+
+[cols="1,1,2,2,2"]
+|===
+2+| **Comprensione** 2+| **Parlato** .2+| **Produzione scritta**
+| **Ascolto** | **Lettura** | **Interazione** | **Produzione orale**
+
+| B2
+| B2
+| B2
+| B2
+| B2
+
+|===
+
+[.line]
+== !
+
+[.sezione]
+=== Russo
+
+[.informazioni]
+=== !
+
+[cols="1,1,2,2,2"]
+|===
+2+| **Comprensione** 2+| **Parlato** .2+| **Produzione scritta**
+| **Ascolto** | **Lettura** | **Interazione** | **Produzione orale**
+
+| B1
+| B1
+| B1
+| B1
+| A2
+
+|===

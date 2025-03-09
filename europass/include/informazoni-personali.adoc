@@ -1,0 +1,20 @@
+[.line]
+== !
+
+[.sezione]
+=== Informazioni personali
+
+image:../resources/photo.jpg[role=profilo]
+
+[.informazioni]
+=== Matteo Franci
+
+**Indirizzo** : Via Edoardo Maragliano, 19 - 00151 Roma - Italia
+
+**Email** : m@fugerit.org
+
+**GitHub** : https://github.com/fugerit79
+
+**Linkedin** : https://www.linkedin.com/in/matteo-franci/
+
+**Sito** : https://www.fugerit.org

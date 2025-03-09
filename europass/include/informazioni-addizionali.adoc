@@ -1,0 +1,31 @@
+[.line]
+== !
+
+[.sezione]
+=== Informazioni addizionali
+
+[.informazioni]
+=== Alcuni progetti a cui ho partecipato
+
+==== Open Source
+
+* Contribuzioni a repository Open Source quali
+link:https://github.com/snakeyaml/snakeyaml/commits?author=fugerit79[SnakeYAML]
+link:https://github.com/smallrye/smallrye-config/commits?author=fugerit79[SmallRye config]
+link:https://github.com/oracle/graalvm-reachability-metadata/commits?author=fugerit79[GraalVM Reachability Metadata]
+link:https://github.com/apache/camel-quarkus/commits?author=fugerit79[Camel Quarkus]
+link:https://github.com/quarkusio/quarkus/commits?author=fugerit79[Quarkus]
+link:https://github.com/xmlet/XsdParser/commits?author=fugerit79[XsdParser]
+link:https://github.com/italia/cie-cns-apache-docker?author=fugerit79[cie-cns-apache-docker].
+
+* link:https://venusdocs.fugerit.org/[Venus - Fugerit Document Generation Framework (fj-doc)], permette di produrre documenti in differenti formati di output (HTML, PDF, CSV, XLSX, AsciiDoc) a partire da un modello sorgente XML (in alternativa è possibile usare JSON, YAML o Kotlin come sorgente). E' disponibile anche un link:https://docs.fugerit.org/fj-doc-playground/home/[Playground online].
+
+* link:https://graalkus.fugerit.org/[Graalkus - Let Quarkus fly high with GraalVM], microservizio didattico basato su link:https://www.graalvm.org/[GraalVM], link:https://quarkus.io/[Quarkus], JAVA. Integrato con link:https://docs.github.com/en/actions[GitHub Actions] per la CI, OpenShift link:https://developers.redhat.com/developer-sandbox[Developer Sandbox] o link:https://www.docker.com/[Docker/Podman] come ambiente di deploy. Corredato di documentazione link:https://asciidoc.org/[AsciiDoc] e presentazione link:https://sli.dev/[Slidev]. (E' un esempio completo di buone pratiche applicate allo sviluppo software, Quality gate, Testing etc).
+
+* Utility e librerie pubblicati in due organizzazioni link:https://github.com/fugerit-org[Fugerit Org] e link:https://github.com/caffetteria[Caffetteria].
+
+==== Professionali
+
+* Repository GitHub Anagrafe Nazionale (ANPR) - https://github.com/italia/anpr
+* Repository GitHub Stato Civile (ANSC) - https://github.com/italia/ansc
+* Servizi di Anagrafe e Stato Civile - https://www.anagrafenazionale.interno.it/

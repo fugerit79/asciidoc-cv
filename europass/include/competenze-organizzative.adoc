@@ -1,0 +1,15 @@
+[.line]
+== !
+
+[.sezione]
+=== Competenze organizzative
+
+[.informazioni]
+=== !
+
+* Principali soft skill
+** Problem Solving
+** Autonomia
+** Condivisione
+** Lavoro in team
+** Pensiero divergente

@@ -1,0 +1,45 @@
+[.line]
+== !
+
+[.sezione]
+=== Competenze tecniche
+
+[.informazioni]
+=== !
+
+* Principali soft skill
+** Problem Solving
+** Autonomia
+** Condivisione
+** Lavoro in team
+** Pensiero divergente
+
+* Linguaggi
+** Java
+** JavaScript (Node, ReacJS, Vite, WebPack)
+** Kotlin
+** C#
+** Python
+
+* Tecnologie basate su java
+** Strumenti di build (Maven, Gradle, GraalVM)
+** Framework microservizi Java (Quarkus, SpringBoot, Micronaut, Liberty)
+** Application server J2EE (Apache Tomcat, WebSphere Application Server, JBoss)
+
+* Sistemi operativi
+** Linux (Debia, Ubuntu, RHEL, Fedora e altri)
+** MacOS
+** Windows
+
+* DocAsCode (AsciiDoc, MarkDown, Mermaid, Slidev, RST)
+
+* Relational DataBase (Oracle, PostgreSQL, MySQL, DB2)
+
+* NoSQL Database (MongoDB, Redis)
+
+* ToolChain (GitHub, GitLab, Azure DevOps, Jira)
+
+* SCM (GIT, Subversion)
+
+
+**NOTA**: L'elenco non è esaustivo, evito di includere strumenti di cui darei la conoscenza per scontata; da quelli di Observability allo sviluppo software (IDE, Postman etc), alla produttività personale.

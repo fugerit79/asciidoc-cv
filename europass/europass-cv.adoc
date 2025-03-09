@@ -1,0 +1,17 @@
+= Curriculum Vitae Matteo Franci
+
+include::include/informazoni-personali.adoc[]
+
+include::include/posizione-desiderata.adoc[]
+
+include::include/esperienze-lavorative.adoc[]
+
+include::include/istruzione-formazione.adoc[]
+
+include::include/competenze-organizzative.adoc[]
+
+include::include/competenze-tecniche.adoc[]
+
+include::include/lingue.adoc[]
+
+include::include/informazioni-addizionali.adoc[]

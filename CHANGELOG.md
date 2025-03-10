@@ -7,6 +7,8 @@ e il progetto si conforma al [Versionamento semantico](https://semver.org/spec/v
 
 ## [Non rilasciato]
 
+## [1.3.0] - 2025-03-10
+
 ### Aggiunto
 
 - Modificati workflow per EuroPass

@@ -1,6 +1,7 @@
 # Curriculum Vitae Matteo Franci
 
 [![Curriculum Vitae](https://img.shields.io/badge/Curriculum%20Vitae-LATEST-EE3020?labelColor=303030&style=flat&logo=adobe)](https://cv.fugerit.org/cv-franci-matteo.pdf)
+[![Curriculum Vitae EuroPass](https://img.shields.io/badge/Curriculum%20Vitae%20EuroPass-LATEST-EE3020?labelColor=303030&style=flat&logo=adobe)](https://cv.fugerit.org/cv-europass-franci-matteo.pdf)
 [![Tenere un changelog v1.1.0 badge](https://img.shields.io/badge/changelog-Tenere%20un%20Changelog%20v1.1.0-%23E05735)](CHANGELOG.md)
 
 Curriculum Vitae con approccio docs as code, basato su AsciiDoc
@@ -27,6 +28,10 @@ Tramite un semplice [workflow GitHub](.github/workflows/gh_pages.yml) viene crea
 
 <https://cv.fugerit.org/cv-franci-matteo.pdf>
 
+E per la versione EuroPass : 
+
+<https://cv.fugerit.org/cv-europass-franci-matteo.pdf>
+
 ## Risorse
 
 Questo progetto è basato su  :
@@ -39,3 +44,18 @@ Questo progetto è basato su  :
 ## Convenzioni
 
 Per i commit viene usata la specifica [Conventional Commits](https://www.conventionalcommits.org/)
+
+## Versione EuroPass
+
+Esiste anche una versione che prova a replicare il formato EuroPass, anche se con delle limitazioni.
+
+Build locale :
+
+```shell
+npm install
+```
+
+```shell
+cd europass
+../node_modules/asciidoctor-pdf/bin/asciidoctor-web-pdf europass-cv.adoc --template-require ./europass-template.js -o europass-cv.pdf
+```

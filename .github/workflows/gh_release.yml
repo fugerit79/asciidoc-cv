@@ -11,6 +11,7 @@ permissions:
 
 env:
   CV_BASE_NAME: cv-franci-matteo
+  CV_EUROPASS_BASE_NAME: cv-europass-franci-matteo
 
 jobs:
 
@@ -48,5 +49,13 @@ jobs:
 
       - name: Upload release artifact
         run: gh release upload ${{github.event.release.tag_name}} target/site/$CV_BASE_NAME-${{ github.ref_name }}.pdf
+        env:
+          GITHUB_TOKEN: ${{ github.TOKEN }}
+
+      - name: Create release artifact EuroPass
+        run: cp -fr target/site/$CV_EUROPASS_BASE_NAME.pdf target/site/$CV_EUROPASS_BASE_NAME-${{ github.ref_name }}.pdf
+
+      - name: Upload release artifact EuroPass
+        run: gh release upload ${{github.event.release.tag_name}} target/site/$CV_EUROPASS_BASE_NAME-${{ github.ref_name }}.pdf
         env:
           GITHUB_TOKEN: ${{ github.TOKEN }}

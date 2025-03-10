@@ -24,6 +24,7 @@
 		<cv.dir>${project.basedir}</cv.dir>
 		<cv.out>${project.basedir}/target/site</cv.out>
 		<cv.pdf>cv-franci-matteo.pdf</cv.pdf>
+		<cv.europass.pdf>cv-europass-franci-matteo.pdf</cv.europass.pdf>
 	</properties>	
 
 	<organization>
@@ -101,6 +102,24 @@
 								<argument>${project.basedir}/template.js</argument>
 							</arguments>
 							<workingDirectory>${cv.dir}</workingDirectory>
+						</configuration>
+					</execution>
+					<execution>
+						<id>asciidoc generation europass</id>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<phase>compile</phase>
+						<configuration>
+							<executable>${project.basedir}/node_modules/asciidoctor-pdf/bin/asciidoctor-web-pdf</executable>
+							<arguments>
+								<argument>-o</argument>
+								<argument>${cv.out}/${cv.europass.pdf}</argument>
+								<argument>${project.basedir}/europass/europass-cv.adoc</argument>
+								<argument>--template-require</argument>
+								<argument>${project.basedir}/europass/europass-template.js</argument>
+							</arguments>
+							<workingDirectory>${cv.dir}/europass</workingDirectory>
 						</configuration>
 					</execution>
 				</executions>

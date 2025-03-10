@@ -9,7 +9,8 @@ e il progetto si conforma al [Versionamento semantico](https://semver.org/spec/v
 
 ### Aggiunto
 
-- Versione EUROPASS estesa Curriculum Vitae
+- Modificati workflow per EuroPass
+- Versione EuroPass estesa Curriculum Vitae
 
 ## [1.2.0] - 2025-03-06
 

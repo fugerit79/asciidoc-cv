@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@asciidoctor/core": "^2.2.8",
-    "asciidoctor-pdf": "^1.0.0-alpha.16"
+    "@asciidoctor/core": "^4.2.1",
+    "asciidoctor-pdf": "^1.0.3"
+  },
+  "overrides": {
+    "puppeteer": "^25.16.0"
   }
 }

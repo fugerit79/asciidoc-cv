@@ -7,6 +7,8 @@ e il progetto si conforma al [Versionamento semantico](https://semver.org/spec/v
 
 ## [Non rilasciato]
 
+## [1.3.1] - 2026-11-05
+
 ### Aggiunto
 
 - Contribuzione OpenSource [Apache FreeMarker](https://github.com/apache/freemarker/commits?author=fugerit79)

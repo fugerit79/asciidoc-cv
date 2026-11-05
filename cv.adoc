@@ -29,6 +29,7 @@ image:resources/photo.jpg[role=profil]
 * Sviluppo software
 * Revisione software (Qualità e sicurezza)
 * Automazione (CI/CD)
+* AI-Assisted Engineering (Agenti, Assistenti, IDE)
 * Linux/MacOS/Windows
 * Tuning performance e alta affidabilità
 

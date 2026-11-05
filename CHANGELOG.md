@@ -10,6 +10,11 @@ e il progetto si conforma al [Versionamento semantico](https://semver.org/spec/v
 ### Aggiunto
 
 - Contribuzione OpenSource [Apache FreeMarker](https://github.com/apache/freemarker/commits?author=fugerit79)
+- Competenze AI-Assisted Engineering
+
+### Modificato
+
+- Stile per formattazione più compatta
 
 ## [1.3.0] - 2025-03-10
 
